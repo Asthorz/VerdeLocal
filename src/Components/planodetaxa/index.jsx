@@ -37,7 +37,7 @@ const PlanoTax = styled.p`
 
 const PlanoSimples = () => {
   return (
-    <PlanoContainer>
+    <PlanoContainer id="teste">
       <PlanoTitle>Padrão</PlanoTitle>
       <PlanoDescription>
         Receba pagamentos de forma simples, com uma plataforma sem custos ocultos.
