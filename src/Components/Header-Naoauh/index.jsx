@@ -35,7 +35,7 @@ export default function Navbar() {
             </NavbarBrand>
             <nav className='d-flex'>
               <NavbarLink href="#">Início</NavbarLink>
-              <NavbarLink href="#">Taxas</NavbarLink>
+              <NavbarLink href="#teste">Taxas</NavbarLink>
               <NavbarLink href="/Ajudar">Ajudar</NavbarLink>
             </nav>
             <nav className='d-flex'>
