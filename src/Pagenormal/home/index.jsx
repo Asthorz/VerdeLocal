@@ -2,11 +2,12 @@ import React from 'react'
 import Navbar from '../../Components/Header-Naoauh'
 import { ButtonHome, Homealert, Mainhome } from './styles'
 import { useNavigate } from 'react-router-dom';
-import Carroselhome from '../../Components/Carrosel-Home/index'
 import AlertComponent from '../../Components/alerthomem'
 import QuickWithdrawalPage from '../../Components/sacahomem'
 import Plataforma from '../../Components/PlataformaverdeLocal';
 import Teste from '../../assets/imagem/backBoard.jpeg'
+import Onboarding from '../../Components/Carrosel-Home/Onboarding';
+import PlanoSimples from '../../Components/planodetaxa';
 export default function Inicio() {
   const navigate = useNavigate();
 
@@ -20,7 +21,6 @@ export default function Inicio() {
      <Navbar/>
       </nav>
       <div>
-        <img src={Teste} alt='asdas' className='back'/>
              <h1 className='Homeh1'>Natural,<br></br>
                  Sustentável,Confiável,<br/>
                   para consumidores conscientes<br></br>  e produtores locais.
@@ -33,7 +33,8 @@ export default function Inicio() {
     <ButtonHome onClick={handleCadastroClick}> Cadastrar agora </ButtonHome>
 
 
-     <Carroselhome/>
+     <Onboarding />
+     <PlanoSimples/>
      <AlertComponent/>
      <QuickWithdrawalPage/>
       <Plataforma/>

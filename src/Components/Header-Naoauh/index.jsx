@@ -36,8 +36,7 @@ export default function Navbar() {
             <nav className='d-flex'>
               <NavbarLink href="#">Início</NavbarLink>
               <NavbarLink href="#">Taxas</NavbarLink>
-              <NavbarLink href="#">FAQ</NavbarLink>
-              <NavbarLink href="#">Ajudar</NavbarLink>
+              <NavbarLink href="/Ajudar">Ajudar</NavbarLink>
             </nav>
             <nav className='d-flex'>
               <NavbarLink href="#" onClick={handleLoginClick} className="login">
