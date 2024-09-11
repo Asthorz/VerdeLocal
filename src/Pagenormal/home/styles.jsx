@@ -17,7 +17,7 @@ export const Mainhome = styled.div`
 
     @media (max-width: 480px) {
       font-size: 2rem; /* Ajuste para celulares */
-      margin-top: 3rem;
+      margin-top: 5rem;
       margin-left: 1.5rem;
     }
   }
