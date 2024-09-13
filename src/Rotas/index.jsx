@@ -4,7 +4,7 @@ import Autenticados from './authrotas'
 import NaoAutenticados from './naoauth'
 
 export default function Rotas(){
-    const autenticado = false
+    const autenticado = true
     return(
         autenticado === true ? <Autenticados /> : <NaoAutenticados />
     )
